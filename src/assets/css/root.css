@@ -1,0 +1,115 @@
+* {
+  font-family: "Inter";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.wrapper {
+  background-color: #EDEEF0;
+  color: #FFFFFF;
+  padding: 0 100px;
+  min-height: 100vh;
+}
+
+.overrideButtonStyle {
+  border: 0;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.overrideIconSvgStyle {
+  width: 25px;
+  height: 25px;
+}
+
+.defaultTextTitle {
+  color: #35608B;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+.defaultTextPost {
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+}
+
+.wallPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  min-height: 100vh;
+  padding: 30px 0;
+}
+.wallPost .FieldPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wallPost .FieldPosts .postbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border: 1px solid #D7D8D9;
+  border-radius: 10px;
+  gap: 5px;
+  color: #000000;
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+}
+.wallPost .FieldPosts .postbox .post__title {
+  display: flex;
+  align-items: center;
+}
+.wallPost .FieldPosts .postbox .commentsBox__comment {
+  border-top: 1px solid #D7D8D9;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.wallPost .FieldPosts .postbox .commentsBox__comment .comment__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.wallPost .FieldPosts .postbox .commentsBox__comment .comment__header .photo {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.wallPost .FieldPosts .postbox .commentsBox__comment .comment__header .photo__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #71AAEB;
+  border-radius: 50%;
+}
+.wallPost .FieldPosts .postbox .commentsBox__comment .comment__header .photo__icon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.wallPost .FieldPosts .postbox .commentsBox__comment .comment__header .nameUser .name {
+  font-size: 19px;
+}
+.wallPost .FieldPosts .postbox .commentsBox__comment .comment__header .nameUser .email {
+  font-size: 12px;
+}
+.wallPost .FieldPosts .controllersButton .openCommentsBtn .iconMessage path {
+  fill: #7E8996;
+}
+.wallPost .SwitchPagePosts {
+  align-self: center;
+}/*# sourceMappingURL=root.css.map */

@@ -1,0 +1,13 @@
+//variables
+@import 'colors/variables';
+
+//reset
+@import 'reset';
+@import 'app';
+
+//helpers
+@import 'helpers/overrideStyle';
+@import 'helpers/defaultText';
+
+//models IndexModel
+@import 'models/IndexModel/styleWallPost';
